@@ -1,0 +1,11 @@
+:root{
+    --font-p: 'Inter';
+    --font-title: 'Inter';
+}
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/Inter\,Plus_Jakarta_Sans.zip);
+}
+body{
+    font-family: var(--font-title);
+}
