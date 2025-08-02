@@ -1,20 +1,76 @@
-:root{
-    --font-p: 'Inter';
-    --font-title: 'Inter';
+:root {
+    --color-blue: #0258F8;
+    --color-grey: #7E8492;
+    --font-title: 'Inter', sans-serif; 
 }
+
 @font-face {
     font-family: 'Inter';
-    src: url(fonts/Inter\,Plus_Jakarta_Sans.zip);
+    src: url('fonts/Inter/static/Inter-Regular.woff2') format('woff2'),
+         url('fonts/Inter/static/Inter-Regular.woff') format('woff'),
+         url('fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
-body{
-    font-family: var(--font-title);
+h1 {
+    font-family: var(--font-title);  /* Usando a variável para a fonte Inter */
+    font-weight: 550;
 }
-.boxes{
-    background-color: #1A1A1A;
+body {
+    font-family: var(--font-title);  
 }
-.boxes h3{
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    font-size: 20px;  
+}
+#banner-desktop, #menu-desktop {
+    display: none;
+}
+
+#banner-mobile {
+    font-size: 0.64rem; 
+    padding: 5px 0 5px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-blue);
     color: #FFFFFF;
 }
-.boxes p{
-    color: #7E8492;
+#menu-mobile{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+#menu-mobile button{
+    height: 20px;
+    width: 70%;
+    margin-right: 20px;
+}
+#hero h1{
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+#hero p{
+    font-size: 0.86rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--color-grey);
+    line-height: 140%;
+}
+
+.boxes {
+    background-color: #1A1A1A;
+}
+
+.boxes h3 {
+    color: #FFFFFF;
+}
+
+.boxes p {
+    color: var(--color-grey); 
 }
