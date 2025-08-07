@@ -23,6 +23,7 @@ body {
 body p{ /* Define a cor e espaçamento das linhas do p em todo o sistema*/
     color: var(--color-grey);
     line-height: 150%;
+    font-size: 0.8rem;
 }
 body button{
     font-size: 0.8rem;
@@ -39,7 +40,7 @@ html {
 #banner-desktop, #menu-desktop {
     display: none;
 }
-.divisao{ /* Criação da divisão (linha)*/
+.division{ /* Criação da divisão (linha)*/
     height: 1px;
     width: 90%;
     background-color: #EDEDED;
@@ -164,16 +165,74 @@ html {
     justify-content: center;
     padding-bottom: 5%;
 }
-
-
-.boxes {
+#message-main h2{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+#message-main p{
+    padding: 0 20px 40px 20px;
+}
+#message-main button{
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    border-radius: 45px;
+    margin: 0 0 50px 20px;
+    padding: 5% 10%;
+}
+#descriptions{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+}
+.symbols{ /* No desktop tem que colocar o simbolo para 36px*/
+    border-radius: 60px;
+    background-color: #EDEDED;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1A1A1A;
+    font-size: 1.2rem;
+}
+.exception-phrase{
+    padding: 5% 0 5% 0;
+}
+#description1, .description2{ /* Terminar de arrumar o espaçamento entre as divisões e frases*/
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#copywriting{
+    padding-top: 15px;
     background-color: #1A1A1A;
 }
-
-.boxes h3 {
+#copywriting h2{
+    padding: 60px 40px 20px 20px;
+    flex-wrap: wrap;
     color: #FFFFFF;
 }
-
+#copywriting p{
+    padding: 10px 20px 50px 20px;
+}
+.boxes {
+    background-color: #1A1A1A;
+    padding: 20px;
+}
+.boxes h3 {
+    color: #FFFFFF;
+    padding: 10% 25% 10% 0;
+}
+#box{
+    padding: 15px 20px;
+    background-color: #212121;
+    border-radius: 16px;
+    margin-bottom: 5%;
+}
 .boxes p {
     color: var(--color-grey); 
 }
