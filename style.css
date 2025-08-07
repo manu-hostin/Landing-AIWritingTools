@@ -2,7 +2,7 @@
     --color-blue: #0258F8;
     --color-grey: #7E8492;
     --font-title: 'Inter', sans-serif; 
-}
+} 
 
 @font-face {
     font-family: 'Inter';
@@ -14,6 +14,7 @@
 }
 h1 {
     font-family: var(--font-title);  /* Usando a variável para a fonte Inter */
+    font-weight: 600;
     font-weight: 600;
 }
 body {
