@@ -14,10 +14,18 @@
 }
 h1 {
     font-family: var(--font-title);  /* Usando a variável para a fonte Inter */
-    font-weight: 550;
+    font-weight: 600;
 }
 body {
     font-family: var(--font-title);  
+}
+body p{ /* Define a cor e espaçamento das linhas do p em todo o sistema*/
+    color: var(--color-grey);
+    line-height: 150%;
+}
+body button{
+    font-size: 0.8rem;
+    font-weight: 600;
 }
 *{
     margin: 0;
@@ -29,6 +37,14 @@ html {
 }
 #banner-desktop, #menu-desktop {
     display: none;
+}
+.divisao{ /* Criação da divisão (linha)*/
+    height: 1px;
+    width: 90%;
+    background-color: #EDEDED;
+    margin: 0 0 8% 0;
+    display: flex;
+    justify-self: center;
 }
 
 #banner-mobile {
@@ -43,7 +59,11 @@ html {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
+    padding-bottom: 5%;
     align-items: center;
+}
+#menu-mobile button{ /*Arrumar o tamanho do menu hambúrguer*/
+    background-color: #FFFFFF;
 }
 #menu-mobile button{
     height: 20px;
@@ -53,15 +73,97 @@ html {
 #hero h1{
     font-size: 2rem;
     padding-left: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 #hero p{
     font-size: 0.86rem;
     padding-left: 20px;
     padding-right: 20px;
     color: var(--color-grey);
-    line-height: 140%;
+    padding-bottom: 25px;
 }
+#first-button, #second-button{
+    display: flex;
+    margin: 15px;
+    border-radius: 45px;
+}
+#first-button{
+    padding: 5% 7% 5% 7%;
+    background-color: var(--color-blue);
+    color:#FFFFFF;
+}
+#second-button{ /*Arrumar o espaçamento entre o botão de play e a frase*/
+    padding: 5% 9% 5% 9%;
+    margin-bottom: 40px;
+    color: var(--color-blue);
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+}
+#languages-presentation{
+    padding-left: 20px;
+}
+#languages-presentation h4{
+    padding-bottom: 20px;
+}
+.flags{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15%;
+    align-items: center;
+    padding-bottom: 7%;
+}
+.flags button{
+    border-radius: 45px;
+    background-color: #FFFFFF;
+    border: 1px solid #EDEDED;
+    padding: 3%;
+}
+.flags img{
+    width: 30px;
+    height: 22px;
+}
+#languages-presentation p{
+    padding-bottom: 11%;
+    padding-right: 15%;
+}
+#img-navegador img{ /* Arrumar tamanho da imagem colorida*/
+    width: 325px;
+    height: 225px;
+    display: flex;
+    justify-self: center;
+    padding-bottom: 15%;
+}
+#companies-presentation{
+    padding-top: 20%;
+    background-color: #FAFBFA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#companies-presentation h2{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15% 12% 15%;
+}
+.website-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    
+    padding: 0 15% 12% 15%;
+}
+.website-logos img{
+    width: 230px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
 
 .boxes {
     background-color: #1A1A1A;
