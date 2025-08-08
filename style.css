@@ -20,6 +20,9 @@ h1 {
 body {
     font-family: var(--font-title);  
 }
+body h2{
+    font-size: 1.68rem;
+}
 body p{ /* Define a cor e espaçamento das linhas do p em todo o sistema*/
     color: var(--color-grey);
     line-height: 150%;
@@ -212,7 +215,7 @@ html {
     background-color: #1A1A1A;
 }
 #copywriting h2{
-    padding: 60px 40px 20px 20px;
+    padding: 50px 40px 20px 20px;
     flex-wrap: wrap;
     color: #FFFFFF;
 }
@@ -221,7 +224,7 @@ html {
 }
 .boxes {
     background-color: #1A1A1A;
-    padding: 20px;
+    padding: 40px 20px;
 }
 .boxes h3 {
     color: #FFFFFF;
@@ -235,4 +238,126 @@ html {
 }
 .boxes p {
     color: var(--color-grey); 
+}
+#advertising{
+    padding: 50px 20px 25px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#advertising p{
+    padding: 20px 0 0 0;
+}
+#button-plans{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#button-plans #first-h5{
+    padding-right: 5%;
+}
+#button-plans #second-h5{
+    padding-left: 10%;
+}
+#arrow {
+    display: flex;
+    flex-direction: row-reverse; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px;
+}
+#arrow img {
+    padding: 0;
+    display: block;
+}
+#button-of-save75 button {
+    background-color: var(--color-blue);
+    border-radius: 45px;
+    color: #FFFFFF;
+    padding: 8px;
+    margin-top: 15%;
+    margin-left: 65px;
+}
+/* PLANOS */
+#plans {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.plan1 {
+    border: 1px solid #EDEDED;
+}
+.plan1 .icons{
+    background-color: #EDEDED;
+    border-radius: 60px;
+    padding: 7px;
+    width: 20px;
+}
+.plan1 h3,
+#plan2 h3{
+    padding: 15px 0 10px 0;
+}
+.plan1, #plan2 {
+    padding: 40px 20px;
+}
+.included {
+    padding: 0 0 15px 0;
+}
+#value{ /* Arrumar a fonte */
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    gap: 10px;
+}
+#value h2{
+    font-size: 2.6rem;
+    padding: 20px 0;
+}
+.included-on-plan .topic{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+.topic img{
+    width: 20px;
+    height: 20px;
+}
+.get-free {
+   display: block;
+   margin: 40px auto 0 auto;
+   padding: 14px 20px;
+   border-radius: 45px;
+   background-color: #FFFFFF;
+   border: 1px solid #EDEDED;
+}
+#plan2 { /* Arrumar o espaçamento entre o Business included e os tópicos*/
+    background-color: var(--color-blue);
+    color: #FFFFFF;
+    border-radius: 15px;
+    position: relative;
+    padding: 50px 20px 40px; 
+}
+#best-offers {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 45px;
+    padding: 8px;
+}
+#icon {
+    width: 40px;
+    height: 40px;
+}
+#plan2 p strong,
+#plan2 p {
+    display: flex;
+    color: #FFFFFF;
+}
+.topic img{
+    color: #FFFFFF;
 }
