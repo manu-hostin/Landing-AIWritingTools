@@ -2,6 +2,7 @@
   <h1>🚀 Coca - AI Writing Tools</h1>
   <p>Aluna: <strong>Emanuelle Cristina Hostin</strong></p>
   <p>Curso: <strong>Desenvolvimento Web Front-End</strong></p>
+  <p>Período de Desenvolvimento: <strong>31 de julho a 15 de agosto de 2025</strong></p>
 </div>
 
 <h2>📌 Visão Geral do Projeto</h2>
