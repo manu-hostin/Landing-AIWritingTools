@@ -32,7 +32,7 @@ coca-ai-writing-tools/
 <p>Para rodar o projeto em seu computador, siga os passos abaixo:</p>
 
 <p><strong>Clone o repositório:</strong></p>
-<pre><code>git clone https://github.com/seu-usuario/coca-ai-writing-tools.git</code></pre>
+<pre><code>git clone https://github.com/manu-hostin/Landing-AIWritingTools.git</code></pre>
 
 <p><strong>Acesse a pasta do projeto:</strong></p>
 <pre><code>cd coca-ai-writing-tools</code></pre>
