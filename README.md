@@ -1,57 +1,47 @@
 <div align="center">
-
-🚀 Coca - AI Writing Tools
-Aluna: Emanuelle Cristina Hostin
-
-Curso: Desenvolvimento Web Front-End
-
+  <h1>🚀 Coca - AI Writing Tools</h1>
+  <p>Aluna: <strong>Emanuelle Cristina Hostin</strong></p>
+  <p>Curso: <strong>Desenvolvimento Web Front-End</strong></p>
 </div>
 
-📌 Visão Geral do Projeto
-Este projeto consiste na criação da página web para a plataforma Coca - AI Writing Tools, uma solução moderna que une inteligência artificial e criatividade para auxiliar na produção de textos. O objetivo central foi replicar com exatidão um layout fornecido no Figma, garantindo fidelidade total ao design, desde o espaçamento e as cores até a tipografia.
+<h2>📌 Visão Geral do Projeto</h2>
+<p>Este projeto consiste na criação da página web para a plataforma <strong>Coca - AI Writing Tools</strong>, uma solução moderna que une inteligência artificial e criatividade para auxiliar na produção de textos. O objetivo central foi replicar com exatidão um layout fornecido no Figma, garantindo fidelidade total ao design, desde o espaçamento e as cores até a tipografia.</p>
+<p>O desenvolvimento seguiu uma abordagem <strong>Mobile First</strong>, priorizando a usabilidade em dispositivos móveis e, em seguida, adaptando o layout para telas maiores usando Media Queries. A página foi construída com <strong>HTML semântico</strong> para otimizar a acessibilidade, e a estilização em <strong>CSS modular</strong>, utilizando variáveis, garante uma manutenção fácil e uma consistência visual em todo o projeto.</p>
 
-O desenvolvimento seguiu uma abordagem Mobile First, priorizando a usabilidade em dispositivos móveis e, em seguida, adaptando o layout para telas maiores usando Media Queries. A página foi construída com HTML semântico para otimizar a acessibilidade, e a estilização em CSS modular, utilizando variáveis, garante uma manutenção fácil e uma consistência visual em todo o projeto.
+<h2>🛠️ Tecnologias Utilizadas</h2>
+<ul>
+  <li><strong>HTML5:</strong> Estrutura semântica e acessível da página.</li>
+  <li><strong>CSS3:</strong> Estilização externa e responsiva.</li>
+  <li><strong>Flexbox & CSS Grid:</strong> Layout e alinhamento flexíveis.</li>
+  <li><strong>Variáveis CSS:</strong> Gerenciamento centralizado de cores e fontes.</li>
+  <li><strong>Media Queries:</strong> Adaptação do layout para diferentes tamanhos de tela.</li>
+  <li><strong>Mobile First:</strong> Abordagem de desenvolvimento focada em dispositivos móveis.</li>
+</ul>
 
-🛠️ Tecnologias Utilizadas
-HTML5: Estrutura semântica e acessível da página.
-
-CSS3: Estilização externa e responsiva.
-
-Flexbox & CSS Grid: Layout e alinhamento flexíveis.
-
-Variáveis CSS: Gerenciamento centralizado de cores e fontes.
-
-Media Queries: Adaptação do layout para diferentes tamanhos de tela.
-
-Mobile First: Abordagem de desenvolvimento focada em dispositivos móveis.
-
-📁 Estrutura de Arquivos
+<h2>📁 Estrutura de Arquivos</h2>
+<pre>
 coca-ai-writing-tools/
 ├── index.html
 ├── style.css
 ├── README.md
 └── imagens/
-💻 Como Executar Localmente
-Para rodar o projeto em seu computador, siga os passos abaixo:
+</pre>
 
-Clone o repositório:
+<h2>💻 Como Executar Localmente</h2>
+<p>Para rodar o projeto em seu computador, siga os passos abaixo:</p>
 
-Bash
+<p><strong>Clone o repositório:</strong></p>
+<pre><code>git clone https://github.com/seu-usuario/coca-ai-writing-tools.git</code></pre>
 
-git clone https://github.com/seu-usuario/coca-ai-writing-tools.git
-Acesse a pasta do projeto:
+<p><strong>Acesse a pasta do projeto:</strong></p>
+<pre><code>cd coca-ai-writing-tools</code></pre>
 
-Bash
-
-cd coca-ai-writing-tools
-Abra o arquivo index.html em seu navegador:
-
-Dê um clique duplo no arquivo ou arraste-o para a janela do navegador.
-
-Alternativamente, utilize o comando start index.html no terminal (em sistemas Windows) ou open index.html (em sistemas macOS).
+<p><strong>Abra o arquivo index.html em seu navegador:</strong></p>
+<ul>
+  <li>Dê um clique duplo no arquivo ou arraste-o para a janela do navegador.</li>
+  <li>Alternativamente, utilize o comando <code>start index.html</code> no terminal (em sistemas Windows) ou <code>open index.html</code> (em sistemas macOS).</li>
+</ul>
 
 <div align="center">
-
-Feito com 💙 por Emanuelle Cristina Hostin.
-
+  Feito com por <strong>Emanuelle Cristina Hostin 💙</strong>.
 </div>
