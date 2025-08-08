@@ -43,5 +43,5 @@ coca-ai-writing-tools/
 </ul>
 
 <div align="center">
-  Feito com 💙 por <strong>Emanuelle Cristina Hostin</strong>.
+  Feito por <strong>Emanuelle Cristina Hostin 💙</strong>.
 </div>
