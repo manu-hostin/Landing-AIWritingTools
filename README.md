@@ -5,11 +5,11 @@
   <p>Período de Desenvolvimento: <strong>31 de julho a 15 de agosto de 2025</strong></p>
 </div>
 
-<h2>📌 Visão Geral do Projeto</h2>
+<h2>Visão Geral do Projeto</h2>
 <p>Este projeto consiste na criação da página web para a plataforma <strong>Coca - AI Writing Tools</strong>, uma solução moderna que une inteligência artificial e criatividade para auxiliar na produção de textos. O objetivo central foi replicar com exatidão um layout fornecido no Figma, garantindo fidelidade total ao design, desde o espaçamento e as cores até a tipografia.</p>
 <p>O desenvolvimento seguiu uma abordagem <strong>Mobile First</strong>, priorizando a usabilidade em dispositivos móveis e, em seguida, adaptando o layout para telas maiores usando Media Queries. A página foi construída com <strong>HTML semântico</strong> para otimizar a acessibilidade, e a estilização em <strong>CSS modular</strong>, utilizando variáveis, garante uma manutenção fácil e uma consistência visual em todo o projeto.</p>
 
-<h2>🛠️ Tecnologias Utilizadas</h2>
+<h2>Tecnologias Utilizadas</h2>
 <ul>
   <li><strong>HTML5:</strong> Estrutura semântica e acessível da página.</li>
   <li><strong>CSS3:</strong> Estilização externa e responsiva.</li>
@@ -19,7 +19,7 @@
   <li><strong>Mobile First:</strong> Abordagem de desenvolvimento focada em dispositivos móveis.</li>
 </ul>
 
-<h2>📁 Estrutura de Arquivos</h2>
+<h2>Estrutura de Arquivos</h2>
 <pre>
 coca-ai-writing-tools/
 ├── index.html
@@ -28,7 +28,7 @@ coca-ai-writing-tools/
 └── imagens/
 </pre>
 
-<h2>💻 Como Executar Localmente</h2>
+<h2>Como Executar Localmente</h2>
 <p>Para rodar o projeto em seu computador, siga os passos abaixo:</p>
 
 <p><strong>Clone o repositório:</strong></p>
