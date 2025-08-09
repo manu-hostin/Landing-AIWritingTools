@@ -361,3 +361,60 @@ html {
 .topic img{
     color: #FFFFFF;
 }
+
+/* FOOTER */
+footer {
+    background-color: #1D1E25;
+    color: #FFFFFF;
+    padding: 20px;
+}
+.promo-container{
+    border-top-left-radius: 15px;
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    margin: 35px 0 35% 0;
+}
+.promo-container h2{
+    padding: 0 0 30px 0;
+}
+.promo-container p {
+    padding: 0 7px 30px 7px;
+    display: flex;
+    justify-content: center;
+    color: #EDEDED;
+    align-items: center;
+    text-align: center;
+}
+.promo-container button {
+    border-radius: 45px;
+    padding: 10px 5px;
+    margin: 0;
+}
+#white-logo img{
+    padding: 60px 0 20px 0;
+    width: 140px;
+    max-height: 70px;
+}
+footer #phrase,
+footer #phrase2 {
+    color: #FFFFFF;
+    padding: 10px 0 60px 0;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    padding: 15px;
+}
+#privacy-policy {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#copyright {
+    display: flex;
+    justify-content: center;
+}
