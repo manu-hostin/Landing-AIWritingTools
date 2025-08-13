@@ -47,7 +47,7 @@ html {
     height: 1px;
     width:89vw;
     background-color: #EDEDED;
-    margin: 0 0 4% 0;
+    margin: 0 0 1% 0;
     display: flex;
     justify-self: center;
 }
@@ -58,59 +58,63 @@ html {
     justify-content: center;
     background-color: var(--color-blue);
 }
-#banner-mobile p{
+#banner-mobile p {
     color: #FFFFFF;
     font-size: 0.65rem;
 }
-#menu-mobile{
+#menu-mobile {
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
-    padding-bottom: 5%;
+    padding-bottom: 27px;
     align-items: center;
 }
-#menu-mobile button{ /*Arrumar o tamanho do menu hambúrguer*/
+#menu-mobile button {
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+    font-size: 24px;
     background-color: #FFFFFF;
 }
-#menu-mobile button{
-    height: 20px;
-    width: 70%;
-    margin-right: 20px;
-}
-#hero h1{
+#hero h1 {
     font-size: 2rem;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
-#hero p{
+#hero p {
     font-size: 0.86rem;
     padding-left: 20px;
     padding-right: 20px;
     color: var(--color-grey);
     padding-bottom: 25px;
+    
 }
-#first-button, #second-button{
+#ai {
+    color: var(--color-blue);
+    display: inline;    
+}
+#first-button, #second-button {
     display: flex;
     margin: 15px;
     border-radius: 45px;
+    padding: 14px 20px 14px 20px;
 }
 #first-button{
-    padding: 5% 7% 5% 7%;
     background-color: var(--color-blue);
     color:#FFFFFF;
 }
-#second-button{ /*Arrumar o espaçamento entre o botão de play e a frase*/
-    padding: 5% 9% 5% 9%;
+#second-button{
     margin-bottom: 40px;
     color: var(--color-blue);
     background-color: #FFFFFF;
     border: 1px solid #EDEDED;
+    gap: 15px;
 }
 #languages-presentation{
     padding-left: 20px;
 }
 #languages-presentation h4{
-    padding-bottom: 20px;
+    padding-bottom: 18.5px;
 }
 .flags{
     display: flex;
@@ -123,25 +127,25 @@ html {
     border-radius: 45px;
     background-color: #FFFFFF;
     border: 1px solid #EDEDED;
-    padding: 3%;
+    padding: 8px;
 }
 .flags img{
     width: 30px;
     height: 22px;
 }
 #languages-presentation p{
-    padding-bottom: 11%;
-    padding-right: 15%;
+    padding-bottom: 42px;
+    padding-right: 97px;
 }
-#img-navegador img{ /* Arrumar tamanho da imagem colorida*/
+#img-navegador img{ 
     width: auto;
     height: 100%;
     display: flex;
     justify-self: center;
-    padding: 0 20px 15% 20px;
+    padding: 24px 20px 56px 20px;
 }
 #companies-presentation{
-    padding-top: 15%;
+    padding-top: 58px;
     background-color: #FAFBFA;
     display: flex;
     flex-direction: column;
@@ -152,7 +156,7 @@ html {
     justify-self: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 5% 8% 5%;
+    padding: 0 5% 32px 5%;
 }
 .website-logos {
     display: flex;
@@ -162,7 +166,7 @@ html {
     flex-wrap: wrap;
     gap: 20px;
 
-    padding: 0 15% 8% 15%;
+    padding: 0 15% 50px 15%;
 }
 .website-logos img{
     width: 120px;
@@ -173,11 +177,10 @@ html {
     padding-bottom: 5%;
 }
 #message-main h2{
-    padding-top: 16%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    padding: 50px 20px 20px 20px;
+    padding: 56px 20px 16px 20px;
 }
 #message-main h5{
     padding: 0 20px 40px 20px;
@@ -189,13 +192,13 @@ html {
     background-color: var(--color-blue);
     color: #FFFFFF;
     border-radius: 45px;
-    margin: 0 0 40px 20px;
+    margin: 0 0 49px 20px;
     padding: 4.8% 10.4%;
 }
 #descriptions{
     display: flex;
     flex-direction: column;
-    padding: 0 20px 32px 20px;
+    padding: 0 20px 56px 20px;
 }
 .symbols{ /* No desktop tem que colocar o simbolo para 40px*/
     border-radius: 60px;
@@ -220,7 +223,7 @@ html {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 0 20px 0;
+    padding: 31px 0;
 }
 #description1{
     display: flex;
@@ -229,20 +232,19 @@ html {
     justify-content: space-between;
 }
 #copywriting{
-    padding-top: 15px;
     background-color: #1A1A1A;
 }
 #copywriting h2{
-    padding: 50px 40px 20px 20px;
+    padding: 56px 40px 0 20px;
     flex-wrap: wrap;
     color: #FFFFFF;
 }
 #copywriting p{
-    padding: 10px 20px 20px 20px;
+    padding: 24px 20px 40px 20px;
 }
 .boxes {
     background-color: #1A1A1A;
-    padding: 20px 20px;
+    padding: 0 20px 20px 20px;
 }
 .boxes h3 {
     color: #FFFFFF;
@@ -259,7 +261,7 @@ html {
     padding-right: 5%;
 }
 #advertising{
-    padding: 50px 20px 25px 20px;
+    padding: 56px 20px 30px 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -277,10 +279,10 @@ html {
     align-items: center;
 }
 #button-plans #first-h5{
-    padding-right: 5%;
+    padding-right: 16px;
 }
 #button-plans #second-h5{
-    padding-left: 15%;
+    padding-left: 40px;
 }
 #arrow {
     display: flex;
@@ -306,10 +308,10 @@ html {
 }
 /* PLANOS */
 #plans {
-    padding: 40px 20px 50px 20px;
+    padding: 48px 20px 56px 20px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 32px;
 }
 .plan1 {
     border: 1px solid #EDEDED;
@@ -397,7 +399,7 @@ html {
 footer {
     background-color: #1D1E25;
     color: #FFFFFF;
-    padding: 20px;
+    padding: 20px 20px 0 20px;
 }
 .promo-container{
     border-top-left-radius: 15px;
@@ -405,19 +407,19 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 40px 0 30px 0;
-    margin: 35px 0 30% 0;
+    padding: 40px 0 40px 0;
+    margin: 35px 0 130px 0;
 }
 .promo-container h2{
     display: flex;
     justify-content: center;
     align-self: center;
-    padding: 0 0 15px 0;
+    padding: 0 0 24px 0;
     width: 90%;
     font-weight: normal;
 }
 .promo-container p {
-    padding: 0 7px 30px 7px;
+    padding: 0 7px 40px 7px;
     display: flex;
     justify-content: center;
     color: #EDEDED;
@@ -448,24 +450,24 @@ footer #phrase p{
 }
 footer #phrase2 {
     color: #FFFFFF;
-    padding: 10px 0 55px 0;
+    padding: 15px 0 55px 0;
 }
 .redes-sociais {
     display: flex;
     justify-content: center;
     gap: 7%;
-    padding: 25px;
+    padding: 45px 0 24px 0;
 }
 #privacy-policy {
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
 }
 #copyright {
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-bottom: 56px;
 }
 #privacy-policy p, 
 #copyright p{
