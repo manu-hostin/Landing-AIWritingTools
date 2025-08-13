@@ -474,3 +474,39 @@ footer #phrase2 {
         color: #FFFFFF;
         font-size: 0.7rem;
 }
+@media(min-width: 1440px){
+    #menu-mobile {
+        display: none;
+   }
+    #menu-desktop{
+        display: block;
+        display: flex;
+        justify-content: flex-start;
+        gap: 40px;
+        align-items: center;
+        padding: 25px 80px;
+    }
+    .logo img{
+        width: 140px;
+        height: 66px;
+    }
+    #button-menu button{
+        padding: 14px 37px;
+        background-color: var(--color-blue);
+        color: #FFFFFF;
+        border-radius: 45px;
+        }
+   
+   #navbar nav ul {
+        font-size: medium;
+        display: flex;
+        gap: 32px;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        flex-direction: row;
+        align-self: center;
+   }
+   
+    
+}
