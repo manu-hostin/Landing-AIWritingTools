@@ -226,7 +226,7 @@ html {
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 31px 0;
+    padding: 5% 0;
 }
 #description1{
     display: flex;
@@ -736,5 +736,16 @@ footer #phrase2 {
         gap: 30px;
         padding-left: 60px;
 
+    }
+}
+@media (min-width: 570px){
+    .flags {
+        padding-right: 45%;
+    }
+
+}
+@media (min-width: 850px ){
+    .flags{
+        padding-right: 60%;
     }
 }
