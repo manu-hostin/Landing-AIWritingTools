@@ -499,13 +499,13 @@ footer #phrase2 {
         width: 140px;
         height: 66px;
     }
-    #button-menu button{
+    .button-menu button{
         padding: 14px 37px;
         background-color: var(--color-blue);
         color: #FFFFFF;
         border-radius: 45px;
     }
-    #button-menu {
+    .button-menu {
         margin-left: auto;
     }
     #navbar nav ul {
