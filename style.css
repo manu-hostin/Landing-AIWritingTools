@@ -82,7 +82,7 @@ html {
      padding-left: 20px;
 }
 #hero h1 {
-    font-size: 2rem;
+    font-size: 10vw;
     padding-bottom: 16px;
 }
 #hero p {
@@ -245,21 +245,21 @@ html {
 #copywriting p{
     padding: 24px 20px 40px 20px;
 }
-.boxes {
+#boxes {
     background-color: #1A1A1A;
     padding: 0 20px 20px 20px;
 }
-.boxes h3 {
+#boxes h3 {
     color: #FFFFFF;
     padding: 5% 25% 5% 0;
 }
-#box{
+.box{
     padding: 20px 20px;
     background-color: #212121;
     border-radius: 16px;
     margin-bottom: 9%;
 }
-.boxes p {
+#boxes p {
     color: var(--color-grey); 
     padding-right: 5%;
 }
@@ -336,13 +336,13 @@ html {
     color: black;
     margin-bottom: 10px;
 }
-#value{ /* Arrumar a fonte */
+.value{ /* Arrumar a fonte */
     display: flex;
     flex-direction: row;
     align-items: last baseline;
     gap: 10px;
 }
-#value h2{
+.value h2{
     font-size: 2.6rem;
     padding: 25px 0;
 }
@@ -626,7 +626,7 @@ footer #phrase2 {
     #copywriting h2 {
         max-width: 65%;
     }
-    .boxes {
+    #boxes {
         padding: 60px;
         display: grid;
         padding-right: 20%;
@@ -636,11 +636,11 @@ footer #phrase2 {
     #copywriting p {
         padding-bottom: 0;
     }
-    #box {
+    .box {
         width: 470px;
         max-height: 268px;
     }
-    #box h3{
+    .box h3{
         width: 50%;
     }
     #advertising h2{
