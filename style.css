@@ -2,6 +2,7 @@
     --color-blue: #0258F8;
     --color-grey: #7E8492;
     --font-title: 'Inter', sans-serif; 
+    --font-h1: 'Jakarta', normal;
 } 
 
 @font-face {
@@ -13,8 +14,10 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'Inter semi-bold';
-    src: url();
+    font-family: 'Jakarta';
+    src: url(fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf) format('woff');
+    font-weight: 700;
+      font-style: normal;
 }
 h1 {
     font-family: var(--font-title);  /* Usando a variável para a fonte Inter */
@@ -87,6 +90,7 @@ html {
      padding-left: 20px;
 }
 #hero h1 {
+    color: #1D1E25;
     font-size: 10vw;
     padding-bottom: 16px;
     padding-right: 20px;
@@ -533,9 +537,7 @@ footer #phrase2 {
         flex-direction: row;
         align-self: center;
    }
-   #hero {
-        padding-left: 80px;
-   }
+   
    #hero h1{
         text-transform: uppercase;
         display: flex;
@@ -743,35 +745,38 @@ footer #phrase2 {
     }
 
    #hero {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto; 
-        max-width: 100%;
-        margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80px 2.5fr 1fr 80px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
     }
+
     #hero h1 {
-        font-size: 4rem;
-        margin: 0;
-        grid-column: span 2; 
-        margin-right: 50px;
-    }
-    #hero p {
-        flex-wrap: wrap;
-        grid-column: span 10;
-        padding-right: 60%;
+    grid-column: 2;
+    margin: 0;
+    font-family: var(--font-h1);
+    font-size: 4.8rem;
     }
 
     #p-hero {
-        font-size: 1rem;
-        grid-column: 5 /5 ; 
-        grid-row: 1/2;
-        max-width: 300px;
-        flex-wrap: wrap;
-       
+    grid-column: 3; 
+    grid-row: 1;
+    padding: 0;
+    margin: 0;
     }
-    #p-hero p {    
-        margin-right: 80px;
-        margin-top: 20px;
+
+    #hero p {
+    grid-column: 2; 
+    margin: 0;
+    margin-right: 40%;
+    }
+
+    #p-hero p {   
+        margin-top: 30px;
+        margin-left: 100px;
+        display: flex;
+        margin-right: 0;
         padding: 0;
     }
     .privacy-policy-text{
@@ -798,10 +803,16 @@ footer #phrase2 {
     #end-footer{
         padding-right: 60px;
     }
-  
+    section {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    }
+
+
 }
 
-@media (min-width: 850px) and (max-width: 1440px){
+@media (min-width: 850px) and (max-width: 1150px){
     .flags{
         padding-right: 60%; 
         padding-bottom: 2%;
