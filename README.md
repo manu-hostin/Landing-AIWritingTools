@@ -2,7 +2,7 @@
   <h1>🚀 Coca - AI Writing Tools</h1>
   <p>Aluna: <strong>Emanuelle Cristina Hostin</strong></p>
   <p>Curso: <strong>Desenvolvimento Web Front-End</strong></p>
-  <p>Período de Desenvolvimento: <strong>31 de julho a 15 de agosto de 2025</strong></p>
+  <p>Período de Desenvolvimento: <strong>31 de julho a 21 de agosto de 2025</strong></p>
 </div>
 
 <h2>Visão Geral do Projeto</h2>
@@ -34,7 +34,7 @@ coca-ai-writing-tools/
 <p><strong>Clone o repositório:</strong></p>
 <pre><code>git clone https://github.com/manu-hostin/Landing-AIWritingTools.git</code></pre>
 
-<p><strong>Acesse a pasta do projeto:</strong></p>
+<p><strong>Acesse a pasta que você deseja executar o projeto:</strong></p>
 <pre><code>cd coca-ai-writing-tools</code></pre>
 
 <p><strong>Abra o arquivo index.html em seu navegador:</strong></p>
